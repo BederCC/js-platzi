@@ -1,0 +1,26 @@
+//tipo de datp promitivo - Inmutable
+let numero = 23
+numero = numero + 10
+console.log(numero);
+
+let esVerdadero = true
+esVerdadero = false
+console.log(esVerdadero);
+
+//tipo de dato complejo - mutable
+let usuario = {nombre: 'John', edad: 23}
+usuario.edad = 24
+console.log(usuario);
+
+let frutas = ['manzana', 'pera', 'platano'] 
+frutas[0] = 'sandia'
+console.log(frutas);
+
+function cambiarNombre(objeto){
+    objeto.nombre = 'Nuevo nombre'
+}
+
+let persona = {nombre: 'John'}
+cambiarNombre(persona)
+
+console.log(persona);
