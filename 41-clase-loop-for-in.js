@@ -28,3 +28,7 @@ for(fruta in listaDeCompras) {
 for(fruta in listaDeCompras) {
     console.log(`${fruta}: ${listaDeCompras[fruta]}`);
 }
+
+for(fruta of listaDeCompras) {
+    console.log(fruta);// error
+}
